@@ -1,3 +1,3 @@
 from django.shortcuts import render
-
-# Create your views here.
+def detail (request, extension);
+	return HttpResponse("You're looking at extension %s." % extension)
